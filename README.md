@@ -78,20 +78,35 @@ If "No": The program prints "Good wishes" and terminates.
 📝 Example Walkthrough
 
 Good afternoon
+
 You want to play this game? Yes/No? Yes
+
 Fine, Let's go
+
 I give you a number from 1 to 10, and you need to guess it.
+
 You have left 3 attempts 5
+
 You have left 2 attempts 8
+
 You are so great, this is the right answer.
+
 Do you want playing again? Yes/No Yes
+
 Fine, Let's go
+
 I give you a number from 1 to 10, and you need to guess it.
+
 You have left 3 attempts 1
+
 You have left 2 attempts 2
+
 You have left 1 attempts 3
+
 Ohh, sorry, but you lose
+
 Do you want playing again? Yes/No No
+
 Good wishes
 
 
