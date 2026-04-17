@@ -1,32 +1,33 @@
 import random
-print("Добрый день")
-start_playing = input("Хотите сыграть в игру? Да/Нет?")
+print("Good afternoon")
+start_playing = input("You want to play this game? Yes/No?")
 while True:
-    if start_playing == "Да":
-        print("Отлично, давайте начнем")
-        print("Загадываю число от 1 до 10, а вы должны его отгадать")
-    else:
-        print("Всего хорошего")
+    if start_playing == "No":
+        print("Best wishes")
         break
+    else:
+        print("Fine, Let's go")
+        print("I give you a number from 1 to 10, and you need to guess it.")
     randomat = random.randint(1, 10)
     num = 0
     while num < 3:
         try:
-            answer = int(input(f"У вас осталось {3 - num} попыток"))
+            answer = int(input(f"You have left {3 - num} attemps"))
         except ValueError:
-            print("Нельзя вводить буквы")
+            print("You can't enter this letters")
             continue
         if answer == randomat:
-            ans = ["Ура вы победили", "Вы такой молодец это правильный ответ", "У вас явно есть дар ясновидещего"]
+            ans = ["Yes, we won", "You are so great, this is the right answer.", "You clearly have the gift of clairvoyance."]
             random_number = random.choice(ans) 
             print(random_number)
             break
         else:
             num += 1
     if num == 3:
-        print("Вы проиграли")
-    more_one = input("Хотите сыграть еще раз?")
-    if more_one =="Нет":
+        print("Ohh, sorry, but you lose")
+    more_one = input("Do you want playing again?Yes/No")
+    if more_one =="No":
+        print("Good wishes")
         break
 
 
