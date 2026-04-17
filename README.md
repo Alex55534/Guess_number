@@ -77,8 +77,6 @@ If "No": The program prints "Good wishes" and terminates.
 
 📝 Example Walkthrough
 
-Here is a complete terminal session showing a win, a loss, and the replay feature:
-
 Good afternoon
 You want to play this game? Yes/No? Yes
 Fine, Let's go
@@ -95,7 +93,6 @@ You have left 1 attempts 3
 Ohh, sorry, but you lose
 Do you want playing again? Yes/No No
 Good wishes
-
 
 
 
